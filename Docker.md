@@ -30,3 +30,6 @@ docker rename container:
 
 ` docker rename <old_container> <new_container_name> `
 
+Find the IP address of docker container:
+
+` docker inspect --format '{{ .NetworkSettings.IPAddress }}' container_name_or_id` 
