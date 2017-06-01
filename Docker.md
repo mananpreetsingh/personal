@@ -33,3 +33,7 @@ docker rename container:
 Find the IP address of docker container:
 
 ` docker inspect --format '{{ .NetworkSettings.IPAddress }}' container_name_or_id` 
+
+Reconfigure the Linux machine clock:
+
+` dpkg-reconfigure tzdata `
