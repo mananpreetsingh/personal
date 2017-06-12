@@ -34,9 +34,13 @@ Find the IP address of docker container:
 
 ` docker inspect --format '{{ .NetworkSettings.IPAddress }}' container_name_or_id` 
 
-or find the dokcer network using ` docker network ls`
+or find the docker network using
 
-then run the inspect command on dokcer network as ` docker network inspect < network name>` 
+` docker network ls`
+
+then run the inspect command on dokcer network as 
+
+`docker network inspect < network name>` 
 
 Reconfigure the Linux machine clock:
 
